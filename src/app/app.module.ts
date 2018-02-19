@@ -15,6 +15,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { MessageService } from './message.service';
 
 import { AppRoutingModule } from './/app-routing.module';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { AppRoutingModule } from './/app-routing.module';
     DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    HeroSearchComponent
   ],
   providers: [
     HeroService,
